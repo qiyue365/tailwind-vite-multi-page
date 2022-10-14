@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tailwindcss 多页应用</title>
+</head>
+
+<body>
+  <ul class="flex space-x-3 bg-white shadow  max-w-sm mx-auto my-3 py-3 px-2">
+    <li>
+      <a href="/index.html" class="hover:text-blue-500">首页</a>
+    </li>
+    <li>
+      <a href="/user/index.html" class="hover:text-blue-500">用户</a>
+    </li>
+    <li>
+      <a href="/user/detail.html" class="hover:text-blue-500">用户详情</a>
+    </li>
+  </ul>
+
+  <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+    <div class="shrink-0">
+      <img class="h-12 w-12" src="/vite.svg" alt="ChitChat Logo">
+    </div>
+    <div>
+      <div class="text-xl font-medium text-black">ChitChat</div>
+      <p class="text-slate-500">You have a new message!</p>
+    </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
